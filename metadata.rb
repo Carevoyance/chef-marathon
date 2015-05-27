@@ -15,4 +15,4 @@ end
   depends cb
 end
 
-recommends 'zookeeper'
+suggests 'exhibitor', '>= 0.3.1'
