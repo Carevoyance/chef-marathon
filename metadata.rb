@@ -11,7 +11,7 @@ version          '1.0.2'
 end
 
 # Cookbook dependencies
-%w( java apt runit mesos ).each do |cb|
+%w( java apt runit ).each do |cb|
   depends cb
 end
 
